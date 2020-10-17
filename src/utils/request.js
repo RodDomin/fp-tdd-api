@@ -3,5 +3,5 @@ export function getRequest(expressRequest) {
     body: expressRequest.body,
     query: expressRequest.query,
     params: expressRequest.params,
-  }
+  };
 }

@@ -1,5 +1,5 @@
 export const expressMockResponse = {
-  status: null,
+  statusCode: null,
   body: null,
   status(value) {
     this.status = value;
@@ -10,5 +10,5 @@ export const expressMockResponse = {
     this.body = value;
 
     return this;
-  }
+  },
 };

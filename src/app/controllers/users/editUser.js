@@ -1,3 +1,3 @@
-const { createEmitAndSemanticDiagnosticsBuilderProgram } = require("typescript")
+const { createEmitAndSemanticDiagnosticsBuilderProgram } = require('typescript');
 
 export function editUser(request) {}

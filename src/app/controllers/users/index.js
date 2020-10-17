@@ -1,6 +1,8 @@
-import { getUsers } from './getUsers.js'
-import { deleteUser } from './deleteUser.js'
-import { editUser } from './editUser.js'
-import { getUser } from './getUser.js'
+import { getUsers } from './getUsers';
+import { deleteUser } from './deleteUser';
+import { editUser } from './editUser';
+import { getUser } from './getUser';
 
-export { getUsers, deleteUser, editUser, getUser };
+export {
+  getUsers, deleteUser, editUser, getUser,
+};
